@@ -10,7 +10,7 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-+(___FILEBASENAMEASIDENTIFIER___*)sharedInstance
++(___FILEBASENAMEASIDENTIFIER___*)___VARIABLE_singletonAccessMethod___
 {
     static ___FILEBASENAMEASIDENTIFIER___ *instance = nil;
     static dispatch_once_t onceToken;

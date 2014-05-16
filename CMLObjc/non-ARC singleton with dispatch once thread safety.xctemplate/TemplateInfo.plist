@@ -50,6 +50,22 @@
 				<string>NSObject</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>sharedInstance</string>
+			<key>Description</key>
+			<string>the method name to access the singleton</string>
+			<key>FallbackHeader</key>
+			<string>sharedInstance</string>
+			<key>Identifier</key>
+			<string>singletonAccessMethod</string>
+			<key>Name</key>
+			<string>Singleton access method name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
